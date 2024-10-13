@@ -34,7 +34,7 @@ export function Layout({ children }: LayoutProps): React.JSX.Element {
             }}
           >
             <DynamicLogo colorDark="light" colorLight="dark" height={32} width={122} />
-            <span style={{ position: 'relative', top: '-7px', color: '#B0BEC5', marginLeft: '-30px', fontSize: '20px' }}>Matos</span><span style={{ position: 'relative', top: '-7px', color: '#ffffff', fontSize: '20px' }}>Control</span>
+            <span style={{ position: 'relative', top: '-7px', color: '#B0BEC5', marginLeft: '-30px', fontSize: '20px' }}>Matos</span><span style={{ position: 'relative', top: '-7px', color: '#afafaf', fontSize: '20px' }}>Control</span>
           </Box>
         </Stack>
         <Box sx={{ alignItems: 'center', display: 'flex', flex: '1 1 auto', justifyContent: 'center', p: 3 }}>
