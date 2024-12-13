@@ -24,7 +24,7 @@ export function Budget({ diff, trend, sx, value }: BudgetProps): React.JSX.Eleme
     <Card sx={sx}>
       <CardContent>
         <Stack spacing={3}>
-          <Stack direction="row" sx={{ alignItems: 'flex-start', justifyContent: 'space-between' }} spacing={3}>
+          <Stack direction="row" sx={{ alignItems: 'flex-start', justifyContent: 'space-between', cursor: 'pointer' }} spacing={3}>
             <Stack spacing={1}>
               <Typography color="text.secondary" variant="overline">
                 Orçamento

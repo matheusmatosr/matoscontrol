@@ -1,7 +1,5 @@
 /* eslint-disable no-console -- Allow */
 
-// NOTE: A tracking system such as Sentry should replace the console
-
 export const LogLevel = { NONE: 'NONE', ERROR: 'ERROR', WARN: 'WARN', DEBUG: 'DEBUG', ALL: 'ALL' } as const;
 
 const LogLevelNumber = { NONE: 0, ERROR: 1, WARN: 2, DEBUG: 3, ALL: 4 } as const;
@@ -62,9 +60,6 @@ export class Logger {
     }
   }
 }
-
-// This can be extended to create context specific logger (Server Action, Router Handler, etc.)
-// to add context information (IP, User-Agent, timestamp, etc.)
 
 export function createLogger({ prefix, level }: LoggerOptions = {}): Logger {
   return new Logger({ prefix, level });

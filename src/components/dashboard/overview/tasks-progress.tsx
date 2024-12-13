@@ -18,10 +18,10 @@ export function TasksProgress({ value, sx }: TasksProgressProps): React.JSX.Elem
     <Card sx={sx}>
       <CardContent>
         <Stack spacing={2}>
-          <Stack direction="row" sx={{ alignItems: 'flex-start', justifyContent: 'space-between' }} spacing={3}>
+          <Stack direction="row" sx={{ alignItems: 'flex-start', justifyContent: 'space-between', cursor: 'pointer' }} spacing={3}>
             <Stack spacing={1}>
               <Typography color="text.secondary" gutterBottom variant="overline">
-                Progresso da tarefa
+                Índice de ocupação
               </Typography>
               <Typography variant="h4">{value}%</Typography>
             </Stack>

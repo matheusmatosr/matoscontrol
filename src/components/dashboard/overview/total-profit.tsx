@@ -16,7 +16,7 @@ export function TotalProfit({ value, sx }: TotalProfitProps): React.JSX.Element 
   return (
     <Card sx={sx}>
       <CardContent>
-        <Stack direction="row" sx={{ alignItems: 'flex-start', justifyContent: 'space-between' }} spacing={3}>
+        <Stack direction="row" sx={{ alignItems: 'flex-start', justifyContent: 'space-between', cursor: 'pointer' }} spacing={3}>
           <Stack spacing={1}>
             <Typography color="text.secondary" variant="overline">
               Lucro total
