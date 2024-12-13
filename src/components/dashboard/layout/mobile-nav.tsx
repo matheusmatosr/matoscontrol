@@ -55,7 +55,7 @@ export function MobileNav({ open, onClose }: MobileNavProps): React.JSX.Element 
       open={open}
     >
       <Stack spacing={2} sx={{ p: 2 }}>
-        <Box component={RouterLink} href={paths.home} sx={{ display: 'inline-flex', textDecoration: 'none', marginLeft: '-15px' }}>
+        <Box component={RouterLink} href={paths.home} sx={{ display: 'inline-flex', textDecoration: 'none', marginLeft: '-40px' }}>
           <Logo color="light" height={32} width={122} />
           <span style={{ color: '#B0BEC5', marginLeft: '-30px', fontSize: '20px' }}>Matos</span><span style={{ color: '#ffffff', fontSize: '20px' }}>Control</span>
         </Box>
